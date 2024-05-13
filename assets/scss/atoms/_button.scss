@@ -1,0 +1,71 @@
+.sd-button {
+    width: 100%;
+    background-color: var(--clr-orange);
+    border: 2px solid var(--clr-orange);
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    p {
+        color: var(--clr-white);
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    span {
+        margin-right: 8px;
+        svg {
+            transform: rotate(180deg);
+            display: flex;
+            // width: 25px;
+        }
+    }
+
+    &:hover {
+        transition: 0.3s;
+        p {
+            color: var(--clr-orange);
+        }
+        background-color: var(--clr-white);
+        span svg path {
+            fill: var(--clr-orange);
+        }
+    }
+
+    &.black {
+        background-color: var(--clr-white);
+        border: 2px solid var(--clr-text);
+        p {
+            color: var(--clr-text);
+        }
+
+        span svg {
+            transform: rotate(0deg);
+        }
+        &:hover {
+            background-color: var(--clr-orange);
+            border: 2px solid var(--clr-orange);
+            P {
+                color: var(--clr-white);
+            }
+            span svg path {
+                fill: var(--clr-white);
+            }
+        }
+    }
+
+    &.red {
+        background-color: var(--clr-red);
+        border: 2px solid var(--clr-red);
+        span {
+            display: none;
+        }
+        &:hover {
+            background-color: var(--clr-white);
+            p {
+                color: var(--clr-red);
+            }
+        }
+    }
+}
