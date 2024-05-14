@@ -1,0 +1,34 @@
+.sd-billingform {
+    margin: 20px;
+
+    .sd-subtitle{
+        margin: 10px 0px 8px;
+    }
+
+    .sd-retrievebtn{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+
+        &__inner{
+            background-color: var(--clr-redbtn);
+            border-radius: 8px;
+            display: flex;
+            justify-content: center;
+            padding: 8px;
+            width: 11%;
+        }
+        
+        &__txt{
+            font-size: 11px;
+            font-weight: 700;
+            color: var(--clr-white);
+        }
+        &__txtbold{
+            font-size: 15px;
+            line-height: 14px;
+            font-weight: 700;
+            color: var(--clr-white);
+        }
+    }
+}
