@@ -10,8 +10,15 @@
 // atoms
 @import "atoms/button";
 @import "atoms/input";
+@import "atoms/quantityselector";
+@import "atoms/title";
+
+
 // molecule
+@import "molecules/ticket-tile";
+
 
 // organisms
-@import "atoms/title";
+@import "organisms/ticket-tile-set";
+
 // pages
