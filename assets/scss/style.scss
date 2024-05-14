@@ -15,8 +15,12 @@
 @import "atoms/checkbox";
 // molecule
 @import "molecules/nightflix";
+@import "molecules/ticket-tile";
 // organisms
 @import "organisms/header";
 @import "organisms/footer";
 @import "organisms/page-format";
+@import "organisms/ticket-tile-set";
+@import "atoms/quantityselector";
+@import "atoms/title";
 // pages

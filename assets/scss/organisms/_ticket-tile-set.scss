@@ -1,0 +1,24 @@
+.tkt-tileset-hero {
+    padding: 50px;
+
+    hr {
+        margin-bottom: 30px;
+    }
+
+    &__nextdiv {
+        width: fit-content;
+        float: right;
+    }
+}
+
+/* / Media queries / */
+
+@include mobile {
+    .tkt-tileset-hero {
+        padding: 20px;
+
+        hr {
+            margin: 25px 0;
+        }
+    }
+}
