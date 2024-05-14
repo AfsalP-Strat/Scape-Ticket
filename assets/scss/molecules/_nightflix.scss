@@ -1,0 +1,43 @@
+.sd-nflix {
+    box-shadow: #63636333 0px 2px 8px 0px;
+    &__img {
+        width: 100%;
+        height: auto;
+    }
+
+    &__out {
+        padding: 24px;
+        color: var(--clr-text);
+        h3 {
+            font-size: 32px;
+            line-height: 38px;
+            font-weight: 500;
+            padding-bottom: 24px;
+            span {
+                font-size: 17px;
+                font-weight: 300;
+                display: block;
+                font-family: "Open Sans", sans-serif;
+            }
+        }
+        
+        p {
+            font-size: 16px;
+            font-weight: 400;
+            font-family: "Open Sans", sans-serif;
+        }
+    }
+
+    &__date {
+        display: flex;
+        align-items: center;
+        padding: 6px 0;
+        p {
+            padding-left: 8px;
+        }
+        img {
+            width: 25px;
+            height: 25px;
+        }
+    }
+} 
