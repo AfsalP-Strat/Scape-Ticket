@@ -13,15 +13,23 @@
 @import "atoms/title";
 @import "atoms/radio";
 @import "atoms/checkbox";
+@import "atoms/quantityselector";
+@import "atoms/title";
+@import "atoms/heading";
+
+
 // molecule
 @import "molecules/nightflix";
 @import "molecules/ticket-tile";
 @import "molecules/total-payable";
+
+
 // organisms
 @import "organisms/header";
 @import "organisms/footer";
 @import "organisms/page-format";
 @import "organisms/ticket-tile-set";
-@import "atoms/quantityselector";
-@import "atoms/title";
+@import "organisms/welcome-login";
+
+
 // pages
