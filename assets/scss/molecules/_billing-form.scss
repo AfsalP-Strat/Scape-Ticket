@@ -33,4 +33,34 @@
             color: var(--clr-white);
         }
     }
+
+    // &__formwrap {
+    //     .sd-input {
+    //         label {
+    //             font-size: 16px;
+    //         }
+    //     }
+    // }
+}
+
+@include tablet-pro {
+    .sd-billingform {
+        
+        .sd-retrievebtn {
+            &__inner {
+                width: 13%;
+            }
+        }
+    }
+}
+
+@include tablet {
+    .sd-billingform {
+        
+        .sd-retrievebtn {
+            &__inner {
+                width: 17%;
+            }
+        }
+    }
 }
