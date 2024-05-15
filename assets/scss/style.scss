@@ -22,15 +22,13 @@
 @import "molecules/nightflix";
 @import "molecules/ticket-tile";
 @import "molecules/total-payable";
-@import "molecules/submit-form";
-
-
+@import "molecules/login-btns";
+@import "molecules/welcome-validation";
 // organisms
 @import "organisms/header";
 @import "organisms/footer";
 @import "organisms/page-format";
 @import "organisms/ticket-tile-set";
-@import "organisms/welcome-login";
-
-
+@import "atoms/quantityselector";
+@import "atoms/title";
 // pages
