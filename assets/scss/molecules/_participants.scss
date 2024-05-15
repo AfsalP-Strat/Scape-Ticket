@@ -1,0 +1,34 @@
+.sd-participants {
+
+
+    &__form {
+        background-color: #fef5ef;
+        padding: 15px;
+
+        .scp-heading {
+            margin-bottom: 10px;
+            padding-top: 10px;
+
+            h2 {
+                font-size: 16px;
+                font-weight: 500;
+            }
+        }
+
+        .sd-input {
+            input {
+                background-color: #ffffff;
+                border: 1px solid #30303033;
+            }
+
+            ::placeholder {
+                color: #A1A1A1;
+            }
+        }
+
+    }
+
+    .sd-checkbox {
+        padding: 20px 0px;
+    }
+}
