@@ -26,6 +26,7 @@
 @import "molecules/login-btns";
 @import "molecules/welcome-validation";
 @import "molecules/participants";
+@import "molecules/submit-form";
 
 // organisms
 @import "organisms/header";
@@ -34,4 +35,7 @@
 @import "organisms/ticket-tile-set";
 @import "atoms/quantityselector";
 @import "atoms/title";
+// pages
+@import "organisms/welcome-login";
+
 // pages

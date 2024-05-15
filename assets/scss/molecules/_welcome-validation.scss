@@ -1,8 +1,9 @@
 .welcome-validation-wrapper {
-    max-width: 500px;
+    width: 100%;
     margin: 0 auto;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     padding: 20px 50px;
+    background-color: #fff;
 
     &__email {
         width: 340px;
@@ -43,8 +44,13 @@
     }
 }
 
+/* Media queries */
+
 @include mobile {
     .welcome-validation-wrapper {
+        padding: 20px 20px;
+        margin-bottom: 20px;
+
         &__email {
             width: 100%;
         }
@@ -52,5 +58,17 @@
         &__otp {
             width: 100%;
         }
+    }
+}
+
+@include tablet {
+    .welcome-validation-wrapper {
+        margin: 30px auto;
+    }
+}
+
+@include tablet-pro {
+    .welcome-validation-wrapper {
+        margin: 30px auto;
     }
 }
