@@ -13,11 +13,17 @@
 @import "atoms/title";
 @import "atoms/radio";
 @import "atoms/checkbox";
+@import "atoms/quantityselector";
+@import "atoms/title";
+@import "atoms/heading";
+
 // molecule
 @import "molecules/nightflix";
 @import "molecules/ticket-tile";
 @import "molecules/total-payable";
 @import "molecules/event-tile";
+@import "molecules/login-btns";
+@import "molecules/welcome-validation";
 // organisms
 @import "organisms/header";
 @import "organisms/footer";

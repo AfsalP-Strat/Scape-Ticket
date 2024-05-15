@@ -1,0 +1,56 @@
+.welcome-validation-wrapper {
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 20px 50px;
+
+    &__email {
+        width: 340px;
+
+        label {
+            font-size: 16px;
+            margin-bottom: 6px;
+            letter-spacing: 1px;
+        }
+    }
+
+    &__otp {
+        width: 340px;
+        margin-top: 25px;
+
+        label {
+            font-size: 16px;
+            margin-bottom: 6px;
+            letter-spacing: 1px;
+        }
+
+        h4 {
+            font-size: 12px;
+            font-weight: 400;
+            letter-spacing: 1px;
+            color: var(--clr-text);
+            margin-bottom: 15px;
+        }
+    }
+
+    &__btns {
+        display: flex;
+        gap: 20px;
+
+        a {
+            padding: 10px 25px;
+        }
+    }
+}
+
+@include mobile {
+    .welcome-validation-wrapper {
+        &__email {
+            width: 100%;
+        }
+
+        &__otp {
+            width: 100%;
+        }
+    }
+}

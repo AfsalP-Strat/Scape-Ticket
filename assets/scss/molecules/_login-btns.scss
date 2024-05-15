@@ -1,0 +1,19 @@
+.login-btns-container {
+    max-width: 458px;
+    margin: 10px auto;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 40px 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    &__login-btn-top {
+        width: 250px;
+        margin: 0 auto;
+    }
+
+    &__login-btn-bottom {
+        width: 250px;
+        margin: 0 auto;
+    }
+}
