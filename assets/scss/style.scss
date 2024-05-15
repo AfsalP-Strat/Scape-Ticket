@@ -16,6 +16,7 @@
 @import "atoms/quantityselector";
 @import "atoms/title";
 @import "atoms/heading";
+@import "atoms/wel-title";
 
 // molecule
 @import "molecules/nightflix";
@@ -24,6 +25,8 @@
 @import "molecules/event-tile";
 @import "molecules/login-btns";
 @import "molecules/welcome-validation";
+@import "molecules/participants";
+
 // organisms
 @import "organisms/header";
 @import "organisms/footer";
