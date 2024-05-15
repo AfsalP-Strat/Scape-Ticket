@@ -120,11 +120,9 @@
     }
 }
 
-@include tablet {}
 
-@include tablet-pro {}
 
-@include mobile {
+@include mobile-tablet {
     .payable {
         padding: 15px 18px;
 
@@ -146,8 +144,10 @@
             }
         }
 
+        &__input {
+            width: 100%;
+        }
+
     }
 
 }
-
-@include mobile-tablet {}
