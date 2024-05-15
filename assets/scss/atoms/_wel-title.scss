@@ -1,0 +1,37 @@
+.scp-wel-title {
+    h1 {
+        font-size: 30px;
+        font-weight: 600;
+        color: var(--clr-text);
+        text-align: center;
+        margin-bottom: 100px;
+    }
+}
+
+/* Media queries */
+@include mobile{
+    .scp-wel-title {
+        h1 {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@include tablet{
+    .scp-wel-title {
+        h1 {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@include tablet-pro{
+    .scp-wel-title {
+        h1 {
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+    }
+}

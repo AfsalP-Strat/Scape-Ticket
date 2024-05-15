@@ -1,15 +1,16 @@
 .scp-submitform {
     width: fit-content;
     padding: 40px;
-    background-color: white;
+    background-color: #fff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
     >p:first-child {
         margin-bottom: 15px;
+        letter-spacing: 1px;
     }
 
     input {
-        width: 250px;
+        width: 275px;
     }
 
     &__inner {
@@ -18,6 +19,18 @@
 
         a {
             padding: 8px 10px;
+        }
+    }
+}
+
+/* Media queries */
+
+@include mobile {
+    .scp-submitform {
+        padding: 20px;
+
+        input {
+            width: 200px;
         }
     }
 }
