@@ -5,6 +5,7 @@
     background-position: top center;
     width: 100%;
     height: auto;
+    padding-bottom: 70px;
 
     .container {
         position: relative;
@@ -19,7 +20,6 @@
         padding: 32px 24px;
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
         position: relative;
-        margin-bottom: 70px;
     }
 
     &__lines {

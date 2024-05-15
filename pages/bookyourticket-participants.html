@@ -21,7 +21,7 @@
     </a>
   </div>
   <!-- Header end -->
-  <!-- body content start -->
+  <!-- body start -->
   <div style="background-image: url(../assets/images/body-bg.png);" class="sd-layout">
     <div class="container">
       <div class="sd-layout__lines">
@@ -56,42 +56,95 @@
           </div>
         </div>
       </div>
-      <!-- Total Payable  -->
       <div class="sd-layout__box">
-        <div class="payable-wrapper__top">
-          <h1>Total Payable</h1>
-          <div>
-            <h3>s$25.00</h3>
-            <p>(inclusive of 9% GST)</p>
+        <div class="row">
+          <div class="col-sm-6">
+            <form class="sd-participants">
+              <div class="sd-participants__form">
+                <!-- participant-1 -->
+                <div class="scp-heading">
+                  <h1>Participant 1</h1>
+                  <h2>1 Day Ticket - s$10</h2>
+                </div>
+                <div class="sd-input">
+                  <label>Name</label>
+                  <input type="text" placeholder="Enter your Name">
+                  <span class="d-none">Please Enter Valid Email Name</span>
+                </div>
+                <div class="sd-input">
+                  <label>Email</label>
+                  <input type="text" placeholder="Enter your Email">
+                  <span class="d-none">Please Enter Valid Email Address</span>
+                </div>
+                <!-- participant-2 -->
+                <div class="scp-heading">
+                  <h1>Participant 2</h1>
+                  <h2>2 Day Bundle - s$15</h2>
+                </div>
+                <div class="sd-input">
+                  <label>Name</label>
+                  <input type="text" placeholder="Enter your Name">
+                  <span class="d-none">Please Enter Valid Email Name</span>
+                </div>
+                <div class="sd-input">
+                  <label>Email</label>
+                  <input type="text" placeholder="Enter your Email">
+                  <span class="d-none">Please Enter Valid Email Address</span>
+                </div>
+              </div>
+              <!-- checkbox -->
+              <div class="sd-checkbox">
+                <label class="material-checkbox">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  Send individual tickets to the additional participants
+                </label>
+              </div>
+            </form>
+          </div>
+          <div class="col-sm-6">
+            <div class="payable lite">
+              <div class="payable__top">
+                <h1>Total Payable</h1>
+                <div>
+                  <h3>s$25.00</h3>
+                  <p>(inclusive of 9% GST)</p>
+                </div>
+              </div>
+
+              <div class="payable__middle">
+                <h1>Admissions</h1>
+                <div class="payable__ticket">
+                  <span class="payable__item">1 Day Ticket</span>
+                  <span>x1</span>
+                  <span class="payable__price">s$10</span>
+                </div>
+                <div class="payable__ticket">
+                  <span class="payable__item">2 Day Bundle</span>
+                  <span>x1</span>
+                  <span class="payable__price">s$15</span>
+                </div>
+              </div>
+
+              <div class="payable__bottom">
+                <div class="payable__promo-txt">
+                  <img src="../assets/images/heroicons_ticket-solid.png" alt="">
+                  <p>Do you have a promo code?</p>
+                </div>
+                <div class="payable__input">
+                  <div class="sd-input orange-border">
+                    <input type="password">
+                    <span class="d-none">Please Enter Valid Password</span>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+            </div>
           </div>
         </div>
-
-        <div class="payable-wrapper__middle">
-          <h1>Admissions</h1>
-          <div class="payable-wrapper__middle__content">
-            <div class="payable-wrapper__middle__content__ticket">
-              <span class="payable-wrapper__middle__content__ticket__item">1 Day Ticket</span>
-              <span>x1</span>
-              <span class="payable-wrapper__middle__content__ticket__price">s$10</span>
-            </div>
-            <div class="payable-wrapper__middle__content__ticket">
-              <span class="payable-wrapper__middle__content__ticket__item">2 Day Bundle</span>
-              <span>x1</span>
-              <span class="payable-wrapper__middle__content__ticket__price">s$15</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="payable-wrapper__middle discount">
-          <div class="payable-wrapper__middle__content">
-            <div class="payable-wrapper__middle__content__ticket">
-              <span class="payable-wrapper__middle__content__ticket__item">2 Day Bundle</span>
-              <span>x1</span>
-              <span class="payable-wrapper__middle__content__ticket__price">s$15</span>
-            </div>
-          </div>
-        </div>
-
         <!-- button  -->
         <div class="sd-layout__cta-out">
           <div>
@@ -127,25 +180,26 @@
       </div>
     </div>
     <!-- body content end -->
-    <!-- Footer start -->
-    <div style="background-image: url(../assets/images/footer-bg.png);" class="sd-footer">
-      <div class="container">
-        <div class="sd-footer__top">
-          <a href="#head">
-            <p>TO TOP</p>
-            <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M1.41 7.41L6 2.83L10.59 7.41L12 6L6 0L0 6L1.41 7.41Z" fill="white" />
-            </svg>
-          </a>
-        </div>
-        <div class="sd-footer__logo">
-          <img src="../assets/images/scape-logo.svg" alt="">
-        </div>
-        <div class="sd-footer__bottom">
-          <p>*SCAPE Co., Ltd. © 2024</p>
-          <p>*SCAPE is now Green Mark Gold certified</p>
-          <p>Last updated at 13 May 2024</p>
-        </div>
+  </div>
+  <!-- body end -->
+  <!-- Footer start -->
+  <div style="background-image: url(../assets/images/footer-bg.png);" class="sd-footer">
+    <div class="container">
+      <div class="sd-footer__top">
+        <a href="#head">
+          <p>TO TOP</p>
+          <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1.41 7.41L6 2.83L10.59 7.41L12 6L6 0L0 6L1.41 7.41Z" fill="white" />
+          </svg>
+        </a>
+      </div>
+      <div class="sd-footer__logo">
+        <img src="../assets/images/scape-logo.svg" alt="">
+      </div>
+      <div class="sd-footer__bottom">
+        <p>*SCAPE Co., Ltd. © 2024</p>
+        <p>*SCAPE is now Green Mark Gold certified</p>
+        <p>Last updated at 13 May 2024</p>
       </div>
     </div>
   </div>
