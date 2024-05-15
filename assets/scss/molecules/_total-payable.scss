@@ -58,6 +58,33 @@
     &__bottom {
         padding: 16px 80px;
         border-bottom: 1px solid #DCDCDC;
+
+
+        &--promo {
+
+            padding: 16px 55px 16px 80px;
+
+            .payable__promo-txt {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin: 10px 0px;
+
+                p {
+                    font-weight: 400;
+                }
+
+                img {
+                    width: 12px;
+                    margin-left: 10px;
+                }
+            }
+
+            .payable__input {
+                display: none;
+            }
+        }
+
     }
 
     &__promo-txt {
@@ -94,7 +121,7 @@
 @include tablet-pro {}
 
 @include mobile {
-    .payable-wrapper {
+    .payable {
         padding: 15px 18px;
 
         &__top {
