@@ -5,6 +5,10 @@
     flex-direction: column;
     padding: 20px 35px;
 
+    &.lite {
+        background-color: #fef8f4;
+    }
+
     &__top {
         padding: 16px 80px;
         display: flex;
