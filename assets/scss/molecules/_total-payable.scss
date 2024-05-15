@@ -1,9 +1,8 @@
-.payable-wrapper {
+.payable {
     // max-width: 1000px;
     // margin: 10px auto;
     display: flex;
     flex-direction: column;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     padding: 20px 35px;
 
     &__top {
@@ -29,62 +28,55 @@
     &__middle {
         padding: 16px 80px;
         border-bottom: 1px solid #DCDCDC;
-        &.payable-wrapper {
-            .payable-wrapper__middle__content__ticket__item {
-                font-weight: 300;
-            }
-        }
 
         h1 {
             font-size: 20px;
             font-weight: 600;
             color: var(--clr-text);
+            margin-bottom: 10px;
         }
 
-        &__content {
-            margin-top: 10px;
+    }
 
-            &__ticket {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                margin-bottom: 10px;
+    &__ticket {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+    }
 
-                &__item {
-                    font-size: 15px;
-                    width: 150px;
-                }
+    &__item {
+        font-size: 15px;
+        width: 150px;
+    }
 
-                &__price {
-                    color: var(--clr-orange);
-                    font-weight: bold;
-                }
-            }
-        }
+    &__price {
+        color: var(--clr-orange);
+        font-weight: bold;
     }
 
     &__bottom {
         padding: 16px 80px;
         border-bottom: 1px solid #DCDCDC;
+    }
 
-        &__content {
-            display: flex;
-            align-items: center;
-            gap: 5px;
-            margin-bottom: 10px;
+    &__promo-txt {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        margin-bottom: 10px;
 
-            img {
-                width: 15px;
-            }
-
-            p {
-                font-size: 15px;
-            }
+        img {
+            width: 15px;
         }
 
-        &__input {
-            width: 250px;
+        p {
+            font-size: 15px;
         }
+    }
+
+    &__input {
+        width: 250px;
     }
 
     &__button-group {
