@@ -1,9 +1,8 @@
-.scp-welogin-outer {
+.scp-login {
     display: flex;
     height: 100vh;
 
-    &__left {
-        width: 50%;
+    &__bg {
 
         img {
             width: 100%;
@@ -11,116 +10,125 @@
         }
     }
 
-    &__right {
-        width: 50%;
+    &__wel-bg {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
+        height: 100vh;
+    }
 
-        &__sub {
-            width: 80%;
-            margin: 0 auto;
+    &__cnt-wrap {
+        width: 70%;
+        height: 100vh;
+        margin: 0 auto;
+    }
 
-            &__btn {
-                color: var(--clr-red);
-                display: flex;
-                justify-content: right;
-                padding: 60px 0 40px 0;
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 50%;
+    }
 
-                a {
-                    img {
-                        margin-right: 5px;
-                    }
-                }
+    &__back-btn {
+        color: var(--clr-red);
+        display: flex;
+        justify-content: right;
+        padding: 50px 0 40px 0;
 
-                &--modify {
-                    visibility: hidden;
-
-                }
-            }
-
-            &__inner {
-                display: flex;
-                justify-content: center;
-                align-items: center;
+        a {
+            img {
+                margin-right: 5px;
             }
         }
+
+        &--hide {
+            visibility: hidden;
+
+        }
+    }
+
+    .scp-wel-title {
+        text-align: center;
+        font-size: 24px;
+        padding-bottom: 30px;
     }
 }
 
 /* / Media queries / */
 
 @include tablet {
-    .scp-welogin-outer {
+    .scp-login {
         flex-direction: column;
 
-        &__left {
-            width: 100%;
+        &__back-btn {
+            padding: 20px 0px 20px 0px;
         }
 
-        &__right {
-            width: 100%;
+        &__wel-bg {
+            height: auto;
+            background-position: top;
+        }
 
-            &__sub {
-                &__inner {
-                    padding-bottom: 40px;
-                }
-
-                &__btn {
-                    padding: 20px 0 0 0;
-                }
-            }
+        &__cnt-wrap {
+            height: auto;
+            margin-bottom: 30px;
         }
     }
 }
 
 @include tablet-pro {
-    .scp-welogin-outer {
+    .scp-login {
         flex-direction: column;
 
-        &__left {
+        .col-lg-6 {
             width: 100%;
         }
 
-        &__right {
-            width: 100%;
-            padding-bottom: 30px;
-
-            &__sub {
-                &__inner {
-                    padding-bottom: 40px;
-                }
-
-                &__btn {
-                    padding: 30px 20px 0 0;
-                }
-            }
+        &__wel-bg {
+            height: auto;
+            background-position: top;
         }
+
+        &__cnt-wrap {
+            height: auto;
+            margin-bottom: 40px;
+        }
+
     }
 }
 
 @include mobile {
-    .scp-welogin-outer {
+    .scp-login {
         flex-direction: column;
 
-        &__left {
+        &__wel-bg {
+            height: auto;
+            background-position: top;
+        }
+
+        &__cnt-wrap {
+            width: 90%;
+            height: auto;
+            margin-bottom: 30px;
+        }
+
+        &__back-btn {
+            padding: 20px 0px;
+        }
+
+        .login-btns-container {
+            padding: 30px 20px;
+            margin: 20px;
+        }
+
+        .login-btns-container__login-btn-top,
+        .login-btns-container__login-btn-bottom {
             width: 100%;
         }
 
-        &__right {
+        .scp-submitform input {
             width: 100%;
-
-            &__sub {
-                width: 90%;
-
-                &__inner {
-                    padding-bottom: 40px;
-                }
-
-                &__btn {
-                    padding: 20px 0 0 0;
-                }
-            }
         }
     }
 }
