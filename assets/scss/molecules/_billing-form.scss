@@ -1,5 +1,5 @@
 .sd-billingform {
-    margin: 20px;
+    // margin: 20px;
 
     .sd-subtitle {
         margin: 10px 0px 8px;
@@ -17,7 +17,7 @@
             display: flex;
             justify-content: center;
             padding: 8px;
-            width: 40%;
+            width: 25%;
         }
         
         &__txt {
@@ -60,6 +60,17 @@
         .sd-retrievebtn {
             &__inner {
                 width: 17%;
+            }
+        }
+    }
+}
+
+@include mobile {
+    .sd-billingform {
+        
+        .sd-retrievebtn {
+            &__inner {
+                width: 40%;
             }
         }
     }
