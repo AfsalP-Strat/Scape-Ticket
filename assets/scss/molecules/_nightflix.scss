@@ -1,5 +1,6 @@
 .sd-nflix {
-    box-shadow: #63636333 0px 2px 8px 0px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-bottom: 42px;
     &__img {
         width: 100%;
         height: auto;
@@ -41,3 +42,11 @@
         }
     }
 } 
+
+@include mobile {
+   .sd-nflix {
+    &__img {
+        display: none;
+     }
+   }
+}

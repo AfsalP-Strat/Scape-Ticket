@@ -13,11 +13,31 @@
 @import "atoms/title";
 @import "atoms/radio";
 @import "atoms/checkbox";
+@import "atoms/quantityselector";
+@import "atoms/title";
+@import "atoms/heading";
+@import "atoms/wel-title";
+
 // molecule
 @import "molecules/nightflix";
 @import "molecules/billing-form";
 @import "molecules/qr-portion";
+@import "molecules/ticket-tile";
+@import "molecules/total-payable";
+@import "molecules/event-tile";
+@import "molecules/login-btns";
+@import "molecules/welcome-validation";
+@import "molecules/participants";
+@import "molecules/submit-form";
+
 // organisms
 @import "organisms/header";
 @import "organisms/footer";
+@import "organisms/page-format";
+@import "organisms/ticket-tile-set";
+@import "atoms/quantityselector";
+@import "atoms/title";
+// pages
+@import "organisms/welcome-login";
+
 // pages

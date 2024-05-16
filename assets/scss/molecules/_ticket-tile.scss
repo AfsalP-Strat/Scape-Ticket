@@ -1,0 +1,50 @@
+.scp-tkt-tile {
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--clr-white);
+    padding: 16px 0;
+    border-bottom: 1px solid #DCDCDC;
+    
+
+    &__inner {
+        font-weight: 300;
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        .span1 {
+            font-weight: 500;
+        }
+
+        .span2 {
+            color: var(--clr-orange);
+        }
+
+        .span3 {
+            font-weight: 400;
+        }
+
+        h1 {
+            font-size: 18px;
+        }
+    }
+}
+
+/* / Media queries / */
+
+@include tablet {
+    .scp-tkt-tile {
+        font-size: 14px;
+    }
+}
+
+@include mobile {
+    .scp-tkt-tile {
+        flex-direction: column;
+        align-items: unset;
+        gap: 10px;
+    }
+}

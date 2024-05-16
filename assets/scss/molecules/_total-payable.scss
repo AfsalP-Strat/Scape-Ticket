@@ -1,0 +1,153 @@
+.payable {
+    // max-width: 1000px;
+    // margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 35px;
+
+    &.lite {
+        background-color: #fef8f4;
+    }
+
+    &__top {
+        padding: 16px 80px;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #DCDCDC;
+
+        h1 {
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--clr-text);
+        }
+
+        h3 {
+            color: var(--clr-orange);
+            font-weight: 700;
+            font-size: 20px;
+            text-align: right;
+        }
+    }
+
+    &__middle {
+        padding: 16px 80px;
+        border-bottom: 1px solid #DCDCDC;
+
+        h1 {
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--clr-text);
+            margin-bottom: 10px;
+        }
+
+    }
+
+    &__ticket {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    &__item {
+        font-size: 15px;
+        width: 150px;
+    }
+
+    &__price {
+        color: var(--clr-orange);
+        font-weight: bold;
+    }
+
+    &__bottom {
+        padding: 16px 80px;
+        border-bottom: 1px solid #DCDCDC;
+
+
+        &--promo {
+
+            padding: 16px 55px 16px 80px;
+
+            .payable__promo-txt {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin: 10px 0px;
+
+                p {
+                    font-weight: 400;
+                }
+
+                img {
+                    width: 12px;
+                    margin-left: 10px;
+                }
+            }
+
+            .payable__input {
+                display: none;
+            }
+        }
+
+    }
+
+    &__promo-txt {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        margin-bottom: 10px;
+
+        img {
+            width: 15px;
+        }
+
+        p {
+            font-size: 15px;
+        }
+    }
+
+    &__input {
+        width: 250px;
+    }
+
+    &__button-group {
+        display: flex;
+        justify-content: space-between;
+
+        a {
+            width: 150px;
+        }
+    }
+}
+
+
+
+@include mobile-tablet {
+    .payable {
+        padding: 15px 18px;
+
+        &__top {
+            padding: 16px;
+        }
+
+        &__middle {
+            padding: 16px;
+        }
+
+        &__bottom {
+            padding: 16px;
+        }
+
+        &__button-group {
+            a {
+                width: 135px;
+            }
+        }
+
+        &__input {
+            width: 100%;
+        }
+
+    }
+
+}
