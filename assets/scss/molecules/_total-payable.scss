@@ -82,6 +82,14 @@
                     width: 12px;
                     margin-left: 10px;
                 }
+
+                // promo-txt modifier for billing-info
+                &.txtmod {
+                    p {
+                        font-weight: 300;
+                        letter-spacing: 1px;
+                    }
+                }
             }
 
             .payable__input {

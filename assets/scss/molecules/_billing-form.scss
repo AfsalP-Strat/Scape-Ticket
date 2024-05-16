@@ -1,0 +1,77 @@
+.sd-billingform {
+    // margin: 20px;
+
+    .sd-subtitle {
+        margin: 10px 0px 8px;
+    }
+
+    .sd-retrievebtn {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: -10px;
+
+        &__inner {
+            background-color: var(--clr-redbtn);
+            border-radius: 8px;
+            display: flex;
+            justify-content: center;
+            padding: 8px;
+            width: 25%;
+        }
+        
+        &__txt {
+            font-size: 11px;
+            font-weight: 700;
+            color: var(--clr-white);
+        }
+
+        &__txtbold {
+            font-size: 15px;
+            line-height: 14px;
+            font-weight: 700;
+            color: var(--clr-white);
+        }
+    }
+
+    // &__formwrap {
+    //     .sd-input {
+    //         label {
+    //             font-size: 16px;
+    //         }
+    //     }
+    // }
+}
+
+@include tablet-pro {
+    .sd-billingform {
+        
+        .sd-retrievebtn {
+            &__inner {
+                width: 13%;
+            }
+        }
+    }
+}
+
+@include tablet {
+    .sd-billingform {
+        
+        .sd-retrievebtn {
+            &__inner {
+                width: 17%;
+            }
+        }
+    }
+}
+
+@include mobile {
+    .sd-billingform {
+        
+        .sd-retrievebtn {
+            &__inner {
+                width: 40%;
+            }
+        }
+    }
+}
