@@ -50,35 +50,14 @@
 
     .scp-wel-title {
         text-align: center;
-        font-size: 24px;
+        font-size: 30px;
         padding-bottom: 30px;
-    }
-}
-
-/* / Media queries / */
-
-@include tablet {
-    .scp-login {
-        flex-direction: column;
-
-        &__back-btn {
-            padding: 20px 0px 20px 0px;
-        }
-
-        &__wel-bg {
-            height: auto;
-            background-position: top;
-        }
-
-        &__cnt-wrap {
-            height: auto;
-            margin-bottom: 30px;
-        }
     }
 }
 
 @include tablet-pro {
     .scp-login {
+        height: unset;
         flex-direction: column;
 
         .col-lg-6 {
@@ -98,8 +77,34 @@
     }
 }
 
+/* / Media queries / */
+
+@include tablet {
+    .scp-login {
+        height: unset;
+        flex-direction: column;
+
+        &__back-btn {
+            padding: 20px 0px 20px 0px;
+        }
+
+        &__wel-bg {
+            height: auto;
+            background-position: top;
+        }
+
+        &__cnt-wrap {
+            height: auto;
+            margin-bottom: 30px;
+        }
+    }
+}
+
+
+
 @include mobile {
     .scp-login {
+        height: unset;
 
         flex-direction: column;
 
