@@ -66,6 +66,11 @@
         .sd-button {
             width: 100%;
 
+            // button black (hiding for mob view)
+            &.black {
+                display: none;
+            }
+
             // proceed-to-payment btn styling
             &.proceed {
                 width: 100%;
@@ -75,6 +80,7 @@
         &__cta-out {
             flex-direction: column;
             align-items: flex-start;
+            padding-top: 10px;
             div {
                 &:first-child,&:last-child {
                    align-items: center;
