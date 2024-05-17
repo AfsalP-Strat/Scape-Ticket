@@ -1,5 +1,5 @@
 .sd-radio {  
-     
+  font-family: "Open Sans", sans-serif;
       .radio-button {
         display: flex;
         align-items: center;
@@ -14,10 +14,10 @@
       .radio-checkmark {
         display: inline-block;
         position: relative;
-        width: 16px;
-        height: 16px;
+        width: 20px;
+        height: 20px;
         margin-right: 8px;
-        border: 2px solid var(--clr-orange);
+        border: 1px solid var(--clr-orange);
         border-radius: 50%;
       }
       
@@ -27,8 +27,8 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%) scale(0);
-        width: 8px;
-        height: 8px;
+        width: 10px;
+        height: 11px;
         border-radius: 50%;
         background-color: var(--clr-orange);
         transition: all 0.2s ease-in-out;
@@ -39,8 +39,8 @@
       }
       
       .radio-label {
-        font-size: 16px;
-        font-weight: 300;
+        font-size: 13px;
+        font-weight: 400;
         color: var(--clr-text);
       }
       
